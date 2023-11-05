@@ -1,0 +1,13 @@
+# This file describes a Fastly Compute package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = ["abdulrahman.alkhatib@ingka.com"]
+description = ""
+language = "javascript"
+manifest_version = 2
+name = "gcengine-poc"
+service_id = "1hIfBlpbqPGiTchSKGvTy4"
+
+[scripts]
+  build = "npm run build"
+  post_init = "npm install"
